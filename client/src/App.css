@@ -170,6 +170,11 @@ body {
   height: 100%;
 }
 
+span {
+  font-weight: bolder;
+  font-style: italic;
+}
+
 .list-card,
 .selected-list-card,
 .unselected-list-card {
