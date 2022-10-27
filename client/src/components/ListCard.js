@@ -98,12 +98,12 @@ function ListCard(props) {
                 label="Playlist Name"
                 name="name"
                 autoComplete="Playlist Name"
-                className='list-card'
                 onKeyPress={handleKeyPress}
                 onChange={handleUpdateText}
                 defaultValue={idNamePair.name}
-                inputProps={{style: {fontSize: 48}}}
+                InputProps={{style: {fontSize: 48}}}
                 InputLabelProps={{style: {fontSize: 24}}}
+                variant='filled'
                 autoFocus
             />
     }
